@@ -1,0 +1,71 @@
+.os-window {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.2);
+  user-select: none;
+}
+
+.window-header {
+  height: 38px;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0 10px;
+  border-bottom: 1px solid #e5e5e5;
+  cursor: default;
+  touch-action: none;
+}
+
+.window-title {
+  font-size: 13px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+
+.window-header-controls {
+  display: flex;
+  height: 100%;
+}
+
+.control-btn {
+  width: 46px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  transition: background 0.1s;
+}
+
+.control-btn:hover {
+  background: #e5e5e5;
+}
+
+.control-btn.close:hover {
+  background: #e81123;
+  color: white;
+}
+
+.window-content {
+  flex: 1;
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,76 @@
+.ending-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #050505; /* Deep rich black */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  font-family: 'Noto Serif SC', 'Georgia', serif; /* Premium serif font */
+}
+
+.ending-title {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+  color: #f0f0f0;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  font-weight: 300;
+}
+
+.ending-image {
+  max-width: 500px;
+  max-height: 45vh;
+  width: auto;
+  border-radius: 4px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+  margin-bottom: 25px;
+  opacity: 0;
+  animation: fadeIn 2s 1s forwards;
+  filter: grayscale(20%) contrast(110%);
+  object-fit: contain;
+}
+
+.ending-desc {
+  font-size: 1.05rem;
+  max-width: 700px;
+  line-height: 1.8;
+  color: #b0b0b0;
+  opacity: 0;
+  animation: fadeIn 2s 2s forwards;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  white-space: pre-line;
+}
+
+.restart-btn {
+  opacity: 0;
+  animation: fadeIn 2s 3.5s forwards;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #ccc;
+  padding: 12px 30px;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.restart-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-color: white;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
