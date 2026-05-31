@@ -3,13 +3,13 @@ import { useGame } from '../GameContext';
 import './VideoEditor.css';
 
 // Pre-import known materials to satisfy static bundling
-import video1 from '../../../video/1.mp4';
-import video2 from '../../../video/2.mp4';
-import video31 from '../../../video/3.1.mp4';
-import video32 from '../../../video/3.2.mp4';
-import video41 from '../../../video/4.1.mp4';
-import video42 from '../../../video/4.2.mp4';
-import video5 from '../../../video/1.mp4'; // Placeholder for material_5 if needed
+import video1 from '../assets/video/1.mp4';
+import video2 from '../assets/video/2.mp4';
+import video31 from '../assets/video/3.1.mp4';
+import video32 from '../assets/video/3.2.mp4';
+import video41 from '../assets/video/4.1.mp4';
+import video42 from '../assets/video/4.2.mp4';
+import video5 from '../assets/video/1.mp4'; // Placeholder for material_5 if needed
 
 const videoSources = {
   'material_1': video1,

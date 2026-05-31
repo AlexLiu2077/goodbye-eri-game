@@ -3,35 +3,35 @@ import { useGame, CHEAT_MODE } from '../GameContext';
 import TunnelOfLight from './TunnelOfLight';
 
 // Direct imports for external media
-import video1 from '../../../video/1.mp4';
-import video2 from '../../../video/2.mp4';
-import video31 from '../../../video/3.1.mp4';
-import video32 from '../../../video/3.2.mp4';
-import video41 from '../../../video/4.1.mp4';
-import video42 from '../../../video/4.2.mp4';
-import video5 from '../../../video/5.mp4';
+import video1 from '../assets/video/1.mp4';
+import video2 from '../assets/video/2.mp4';
+import video31 from '../assets/video/3.1.mp4';
+import video32 from '../assets/video/3.2.mp4';
+import video41 from '../assets/video/4.1.mp4';
+import video42 from '../assets/video/4.2.mp4';
+import video5 from '../assets/video/5.mp4';
 
-import img01 from '../../../frame_by_frame/firstmeet/01.png';
-import img02 from '../../../frame_by_frame/firstmeet/02.png';
-import img03 from '../../../frame_by_frame/firstmeet/03.png';
-import img04 from '../../../frame_by_frame/firstmeet/04.png';
+import img01 from '../assets/frame_by_frame/firstmeet/01.png';
+import img02 from '../assets/frame_by_frame/firstmeet/02.png';
+import img03 from '../assets/frame_by_frame/firstmeet/03.png';
+import img04 from '../assets/frame_by_frame/firstmeet/04.png';
 
-import s01 from '../../../frame_by_frame/seaside/01.png';
-import s02 from '../../../frame_by_frame/seaside/02.png';
-import s03 from '../../../frame_by_frame/seaside/03.png';
-import s04 from '../../../frame_by_frame/seaside/04.png';
-import s05 from '../../../frame_by_frame/seaside/05.png';
-import s06 from '../../../frame_by_frame/seaside/06.png';
-import s07 from '../../../frame_by_frame/seaside/07.png';
+import s01 from '../assets/frame_by_frame/seaside/01.png';
+import s02 from '../assets/frame_by_frame/seaside/02.png';
+import s03 from '../assets/frame_by_frame/seaside/03.png';
+import s04 from '../assets/frame_by_frame/seaside/04.png';
+import s05 from '../assets/frame_by_frame/seaside/05.png';
+import s06 from '../assets/frame_by_frame/seaside/06.png';
+import s07 from '../assets/frame_by_frame/seaside/07.png';
 
-import goodbye1 from '../../../frame_by_frame/goodbye/01.png';
-import goodbye2 from '../../../frame_by_frame/goodbye/02.png';
-import goodbye3 from '../../../frame_by_frame/goodbye/03.png';
-import goodbye4 from '../../../frame_by_frame/goodbye/04.png';
-import goodbye5 from '../../../frame_by_frame/goodbye/05.png';
-import goodbye6 from '../../../frame_by_frame/goodbye/06.png';
-import goodbye7 from '../../../frame_by_frame/goodbye/07.png';
-import goodbye8 from '../../../frame_by_frame/goodbye/08.png';
+import goodbye1 from '../assets/frame_by_frame/goodbye/01.png';
+import goodbye2 from '../assets/frame_by_frame/goodbye/02.png';
+import goodbye3 from '../assets/frame_by_frame/goodbye/03.png';
+import goodbye4 from '../assets/frame_by_frame/goodbye/04.png';
+import goodbye5 from '../assets/frame_by_frame/goodbye/05.png';
+import goodbye6 from '../assets/frame_by_frame/goodbye/06.png';
+import goodbye7 from '../assets/frame_by_frame/goodbye/07.png';
+import goodbye8 from '../assets/frame_by_frame/goodbye/08.png';
 
 const firstMeetImages = [img01, img02, img03, img04];
 const seasidePhotos = [s01, s02, s03, s04, s05, s06, s07];
