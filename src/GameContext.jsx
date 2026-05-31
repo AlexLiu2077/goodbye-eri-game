@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState } from 'react';
 
 // Cheat Mode Flag
-export const CHEAT_MODE = false;
+export const CHEAT_MODE = true; // Set to true to show skip buttons and unlock editor faster
 
 const GameContext = createContext();
 
