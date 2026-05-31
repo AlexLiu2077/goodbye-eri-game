@@ -107,7 +107,7 @@ export const storyData = {
       { sender: '绘梨', text: '但我们要拍的是电影。', delay: 1500 },
       { sender: 'me', text: '可是……我们要去哪借吸血鬼的古堡啊，我们连场地都没有。', delay: 500 },
       { sender: '绘梨', text: '古堡太俗套了。', delay: 1500 },
-      { sender: '绘梨', image: '/seaside.png', delay: 3000 },
+      { sender: '绘梨', image: './seaside.png', delay: 3000 },
       { sender: '绘梨', text: '下周六，带着你的摄像机我们去这里。', delay: 2000 },
       { sender: 'me', text: '海边？去海边拍吸血鬼吗？吸血鬼不是不能晒太阳吗？', delay: 500 },
       { sender: '绘梨', text: '那是别人的吸血鬼，不是我的。', delay: 2000 },

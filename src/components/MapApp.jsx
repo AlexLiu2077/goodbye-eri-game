@@ -64,7 +64,7 @@ const MapApp = () => {
         }}
         onMouseDown={handleMouseDown}
       >
-        <img src="/map.png" alt="City Map" className="map-image" draggable={false} />
+        <img src="./map.png" alt="City Map" className="map-image" draggable={false} />
         
         {/* 废墟影院 (Right Side) */}
         <div 

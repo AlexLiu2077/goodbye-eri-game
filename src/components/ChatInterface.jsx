@@ -3,10 +3,10 @@ import { useGame, CHEAT_MODE } from '../GameContext';
 import { storyData } from '../data/storySequence';
 import './ChatInterface.css';
 
-const meAvatar = '/avatar_me.png';
-const eriAvatar = '/avatar_eri.png';
-const friendAvatar = '/avatar_eri_friend.png';
-const groupAvatar = '/group_avatar.png';
+const meAvatar = './avatar_me.png';
+const eriAvatar = './avatar_eri.png';
+const friendAvatar = './avatar_eri_friend.png';
+const groupAvatar = './group_avatar.png';
 
 const ChatInterface = () => {
   const { chapter, addMaterial, updateAppData, showNotification, appData } = useGame();
@@ -391,9 +391,9 @@ const ChatInterface = () => {
 
   const getAvatar = (sender, fallbackAvatar) => {
     if (sender === 'me') return meAvatar;
-    if (sender === 'other1') return '/avatar_npc1.png';
-    if (sender === 'other2') return '/avatar_npc2.png';
-    if (sender === 'other3') return '/avatar_npc3.png';
+    if (sender === 'other1') return './avatar_npc1.png';
+    if (sender === 'other2') return './avatar_npc2.png';
+    if (sender === 'other3') return './avatar_npc3.png';
     return fallbackAvatar;
   };
 

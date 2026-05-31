@@ -57,7 +57,7 @@ const Desktop = () => {
             if (isEditorUnlocked) openWindow('editor');
           }}
         >
-          <img src="/adobe_icon.png" alt="Adobe" />
+          <img src="./adobe_icon.png" alt="Adobe" />
           <span>Adobe</span>
         </div>
 
@@ -65,7 +65,7 @@ const Desktop = () => {
           className="desktop-icon unlocked" 
           onClick={() => openWindow('maps')}
         >
-          <img src="/map_icon.png" alt="地图" />
+          <img src="./map_icon.png" alt="地图" />
           <span>地图</span>
         </div>
       </div>
